@@ -1,4 +1,4 @@
-#Nodes: Conceptual
+# Nodes: Conceptual
 
 ##What is a Node?
 Nodes are the fundamental building blocks of many computer science data structures. They form the basis for linked lists, stacks, queues, trees, and more. In this article, we’ll discuss what a node is as well as how nodes link to other nodes.
