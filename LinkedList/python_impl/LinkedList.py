@@ -47,6 +47,8 @@ class LinkedList:
           current_node = None
         else:
           current_node = next_node
+
+
   def swap_node(self,val1,val2):
       print(f'Swapping {val1} with {val2}')
       node1_prev = None
@@ -87,10 +89,9 @@ class LinkedList:
 
 
 
-ll = LinkedList()
-
+ll = LinkedList.LinkedList()
 for i in range(10):
-    ll.insert_beginning(i)
+  ll.insert_beginning(i)
 
 print(ll.stringify_list())
 ll.swap_node(5,9)
