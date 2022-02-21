@@ -1,14 +1,14 @@
 # Data-Structures-and-Algorithms-
 
 
-##What even are data structures and algorithms?
+## What even are data structures and algorithms?
 
 At the backbone of every program or piece of software are two entities: data and algorithms. 
 Algorithms transform data into something a program can effectively use. 
 Therefore, it is important to understand how to structure data so algorithms can maintain,
 utilize, and iterate through data quickly.
 
-##Data Structures
+## Data Structures
 
 Data structures are the way we are able to store and retrieve data. You’re already familiar with Python lists and dictionaries, so you know that lists and arrays are sequential with data accessed by index while dictionaries and objects use a named key to store and retrieve information.
 
@@ -16,7 +16,7 @@ The data structures that exist in programming languages are pretty similar to re
 
 Fortunately, most grocery stores have a clear order to the way the store is stocked and laid out. Similarly, data structures provide us with a way to organize information (including other data structures!) in a digital space.
 
-##How are data structures used?
+## How are data structures used?
 
 Data structures handle four main functions for us:
 
@@ -35,7 +35,7 @@ Retrieving is devoted to finding and returning the data that is stored in the st
 Different types and use cases for data will be better suited to different manners of inputting, processing, storing, and retrieving. This is why we have several data structures to choose from… and the ability to create our own!
 
 
-##Which data structure should I choose?
+## Which data structure should I choose?
 
 Your plumber probably would not be the best professional to diagnose an illness and your doctor probably wouldn’t be the best person to do your taxes — they are each better suited for other tasks! Similarly, different data structures are better suited for different tasks. Choosing the wrong data structure can result in slow or unresponsive code (and mess up your program!), so it’s important to consider a few factors as you make your decision:
 
@@ -44,7 +44,7 @@ Do you want or need control over how memory is set aside to store your data? Dat
 How long will it take different data structures to accomplish various tasks relative to other data structures? Technically, two data structures may both be able to accomplish the same task for you, but one may be quite a bit faster. This consideration, known as runtime will be covered further in-depth when you explore all the nifty tricks of asymptotic notation.
 
 
-##Algorithms
+## Algorithms
 
 
 Simply put, algorithms are instructions that the computer follows to carry out tasks. There are many, many types of algorithms, but some common ones that you will encounter in this course (and likely the world!) are:
@@ -55,7 +55,7 @@ Divide and conquer algorithms
 Greedy algorithms
 Brute force algorithms
 
-##How are algorithms used?
+## How are algorithms used?
 Algorithms are used to manipulate and process data. Data structures are useful in maintaining and storing data, but algorithms are what actually utilize that data.
 
 Let’s say we have a list of numbers- that List is the data structure that stores the numbers, but that’s all it does. If we want to do something with those numbers, we need an algorithm! We could sort them using a sorting algorithm, or we could do something much simpler, like create a new list that contains the original list’s elements multiplied by two.
