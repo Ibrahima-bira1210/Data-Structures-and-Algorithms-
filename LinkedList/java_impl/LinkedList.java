@@ -147,7 +147,38 @@ public class LinkedList<T>{
         node1.setNext_node(node2.getNext_node());
         node2.setNext_node(temp);
     }
+        public T findMidle(){
+        System.out.println("Finding the middle of the linked list");
+        Node<T> fast = getHeadNode();
+        Node<T> slow = getHeadNode();
+        while (fast != null){
+            fast = fast.getNext_node();
+            if (fast != null){
+                fast = fast.getNext_node();
+                //slow = slow.getNext_node();
+            }
+        }
+        return slow.getValue();
+    }
 
+    public T nthLastNode(int n){
+        System.out.println("getting the "+ n + "th last node");
+        Node<T> current = new Node<T>();
+        Node<T> tailSeeker = getHeadNode();
+        int count = 0;
+        while (tailSeeker != null){
+            tailSeeker = tailSeeker.getNext_node();
+            count = count + 1;
+            if (count > n + 1){
+                if (current == null){
+                    current = getHeadNode();
+                }else{
+                    current = current.getNext_node();
+                }
+            }
+        }
+        return current.getValue();
+    }
 
 }
 
